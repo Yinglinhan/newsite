@@ -1,9 +1,14 @@
 import React from "react"
-import { Link } from "gatsby"
-import {motion} from "framer-motion"
+import Layout from '../components/layout'
+
+import WhoamiCom from "../components/content/whoamiCom"
+
+
 
 const IndexPage = () => (
-  <motion.div drag>我是一个网页</motion.div>
+  <Layout>
+    <WhoamiCom />
+  </Layout>
 )
 
 export default IndexPage
